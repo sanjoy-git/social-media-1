@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media</title>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/fontawesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+            <i class="fa-solid fa-group-arrows-rotate logo">social</i>
+            <ul>
+                <li>
+                    <i class="fa-solid fa-bell"></i>
+                    <i class="fa-solid fa-message"></i>
+                    <i class="fa-solid fa-video"></i>
+                </li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="nav-user-icon online" onclick="settingMenuToggle()">
+                <img src="./images/sanjoy-pp1.jpg" alt="">
+            </div>
+        </div>
+
+        <!-- settings menu -->
+        <div class="settings-menu">
+            <div id="dark-btn">
+                <span></span>
+            </div>
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="./images/sanjoy-pp1.jpg" alt="">
+                    <div>
+                        <p>Sanjoy</p>
+                        <a href="#">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="./images/help.png" alt="">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us</a>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="settings-links">
+                    <i class="fa-solid fa-gear"></i>
+                    <a href="#">Settings & Privacy</a>
+                    <i class="fa-solid fa-caret-right"></i>
+                </div>
+                <div class="settings-links">
+                    <i class="fa-solid fa-circle-question"></i>
+                    <a href="#">Help & Support</a>
+                    <i class="fa-solid fa-caret-right"></i>
+                </div>
+                <div class="settings-links">
+                    <i class="fa-solid fa-display"></i>
+                    <a href="#">Display & Accessibility</a>
+                    <i class="fa-solid fa-caret-right"></i>
+                </div>
+            </div>
+
+        </div>
+
+    </nav>
+
+    <div class="container">
+
+        <!-- left-sidebar -->
+        <div class="left-sidebar">
+            <div class="imp-links">
+                <a href="#"><i class="fa-solid fa-newspaper"></i>Latest News</a>
+                <a href="#"><i class="fa-solid fa-user-group"></i>Friends</a>
+                <a href="#"><i class="fa-solid fa-people-group"></i>Groups</a>
+                <a href="#"><i class="fa-solid fa-shop"></i>Market Place</a>
+                <a href="#"><i class="fa-solid fa-video"></i>Watch</a>
+                <a href="#">See More</a>
+            </div>
+            <div class="shortcut-links">
+                <p>Your Shortcuts</p>
+                <a href=""><img src="./images/w1.png" alt="">Web Designer</a>
+                <a href=""><img src="./images/w2.png" alt="">Web Designer Course</a>
+                <a href=""><img src="./images/w3.png" alt="">Full stack Development</a>
+                <a href=""><img src="./images/w4.png" alt="">Web Experts</a>
+            </div>
+        </div>
+
+        <!-- main-content -->
+        <div class="main-content">
+
+            <div class="story-gollery">
+                <div class="story story1">
+                    <i class="fa-solid fa-add"></i>
+                    <p>Sanjoy</p>
+                </div>
+                <div class="story story2">
+                    <img src="./images/lutfor-pp.jpg" alt="">
+                    <p>Lutfor</p>
+                </div>
+                <div class="story story3">
+                    <img src="./images/rajib-pp.jpg" alt="">
+                    <p>Rajib</p>
+                </div>
+                <div class="story story4">
+                    <img src="./images/motiur-pp.jpg" alt="">
+                    <p>Motiur</p>
+                </div>
+                <div class="story story5">
+                    <img src="./images/syful-pp.jpg" alt="">
+                    <p>Syful</p>
+                </div>
+            </div>
+
+
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="./images/sanjoy-pp1.jpg" alt="">
+                    <div>
+                        <p>Sanjoy</p>
+                        <small>Public <i class="fa-solid fa-caret-down"></i></small>
+                    </div>
+                </div>
+
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="What's on your mind, --?"></textarea>
+                    <div class="add-post-links">
+                        <a href="#"><i class="fa-solid fa-video"></i>Live Video</a>
+                        <a href="#"><i class="fa-solid fa-image"></i>Photo/Video</a>
+                        <a href="#"><i class="fa-solid fa-face-grin"></i>Feling/Activity</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="./images/sanjoy-pp1.jpg" alt="">
+                        <div>
+                            <p>Sanjoy</p>
+                            <span>Jun 8 2022, 10:00 am</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+
+                <p class="post-text"> <span>MERN easy</span> Subscribe Channel <a href="#">#MERN easy</a></p>
+                <img class="post-img" src="./images/post-img1.jpg" alt="">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><i class="fa-solid fa-thumbs-up"></i> 130</div>
+                        <div><i class="fa-solid fa-thumbs-down"></i> 30</div>
+                        <div><i class="fa-solid fa-comment"></i> 45</div>
+                        <div><i class="fa-solid fa-share"></i> 100</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="./images/sanjoy-pp1.jpg" alt=""> <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="./images/sanjoy-pp1.jpg" alt="">
+                        <div>
+                            <p>Sanjoy</p>
+                            <span>Jun 9 2022, 10:00 am</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+
+                <p class="post-text"> <span>MERN easy</span> Subscribe Channel <a href="#">#MERN easy</a></p>
+                <img class="post-img" src="./images/post-img2.jpg" alt="">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><i class="fa-solid fa-thumbs-up"></i> 130</div>
+                        <div><i class="fa-solid fa-thumbs-down"></i> 30</div>
+                        <div><i class="fa-solid fa-comment"></i> 45</div>
+                        <div><i class="fa-solid fa-share"></i> 100</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="./images/sanjoy-pp1.jpg" alt=""> <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="./images/lutfor-pp.jpg" alt="">
+                        <div>
+                            <p>Lutfor</p>
+                            <span>Jun 10 2022, 10:30 am</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+
+                <p class="post-text"> <span>MERN easy</span> Subscribe Channel <a href="#">#MERN easy</a></p>
+                <img class="post-img" src="./images/post-img3.jfif" alt="">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><i class="fa-solid fa-thumbs-up"></i> 130</div>
+                        <div><i class="fa-solid fa-thumbs-down"></i> 30</div>
+                        <div><i class="fa-solid fa-comment"></i> 45</div>
+                        <div><i class="fa-solid fa-share"></i> 100</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="./images/lutfor-pp.jpg.jpg" alt=""> <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="./images/rajib-pp.jpg" alt="">
+                        <div>
+                            <p>Rajib</p>
+                            <span>Jun 11 2022, 11:00 am</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+
+                <p class="post-text"> <span>MERN easy</span> Subscribe Channel <a href="#">#MERN easy</a></p>
+                <img class="post-img" src="./images/post-img4.jpg" alt="">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><i class="fa-solid fa-thumbs-up"></i> 130</div>
+                        <div><i class="fa-solid fa-thumbs-down"></i> 30</div>
+                        <div><i class="fa-solid fa-comment"></i> 45</div>
+                        <div><i class="fa-solid fa-share"></i> 100</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="./images/rajib-pp.jpg" alt=""> <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="./images/motiur-pp.jpg" alt="">
+                        <div>
+                            <p>Motiur</p>
+                            <span>Jun 12 2022, 11:00 am</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+
+                <p class="post-text"> <span>MERN easy</span> Subscribe Channel <a href="#">#MERN easy</a></p>
+                <img class="post-img" src="./images/post-img5.webp" alt="">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><i class="fa-solid fa-thumbs-up"></i> 130</div>
+                        <div><i class="fa-solid fa-thumbs-down"></i> 30</div>
+                        <div><i class="fa-solid fa-comment"></i> 45</div>
+                        <div><i class="fa-solid fa-share"></i> 100</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="./images/motiur-pp.jpg" alt=""> <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="./images/syful-pp.jpg" alt="">
+                        <div>
+                            <p>Syful</p>
+                            <span>May 13 2022, 6:00 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+
+                <p class="post-text"> <span>MERN easy</span> Subscribe Channel <a href="#">#MERN easy</a></p>
+                <img class="post-img" src="./images/post-img6.jpg" alt="">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><i class="fa-solid fa-thumbs-up"></i> 130</div>
+                        <div><i class="fa-solid fa-thumbs-down"></i> 30</div>
+                        <div><i class="fa-solid fa-comment"></i> 45</div>
+                        <div><i class="fa-solid fa-share"></i> 100</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="./images/syful-pp.jpg" alt=""> <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <button type="button" class="load-more-btn">Load More</button>
+
+        </div>
+
+        <!-- right-sidebar -->
+        <div class="right-sidebar">
+
+            <div class="sidebar-title">
+                <h4>Events</h4>
+                <a href="#">See All</a>
+            </div>
+
+            <div class="event">
+                <div class="left-event">
+                    <h3>19</h3>
+                    <span>May</span>
+                </div>
+                <div class="right-event">
+                    <h4>Social Media</h4>
+                    <p><i class="fa-solid fa-location-dot"></i> Sanjoy Tech Park</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+
+            <div class="event">
+                <div class="left-event">
+                    <h3>20</h3>
+                    <span>Jun</span>
+                </div>
+                <div class="right-event">
+                    <h4>Online Marketing</h4>
+                    <p><i class="fa-solid fa-location-dot"></i> Sanjoy Tech Park</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+
+            <div class="sidebar-title">
+                <h4>Advertisement</h4>
+                <a href="#">Close</a>
+            </div>
+            <img class="sidebar-ads" src="./images/ads1.png" alt="">
+
+            <div class="sidebar-title">
+                <h4>Conversation</h4>
+                <a href="#">Hide Chat</a>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="./images/sanjoy-pp1.jpg">
+                </div>
+                <p>Sanjoy</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="./images/lutfor-pp.jpg">
+                </div>
+                <p>Lutfor</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="./images/rajib-pp.jpg">
+                </div>
+                <p>Rajib</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="./images/motiur-pp.jpg">
+                </div>
+                <p>Motior</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="./images/syful-pp.jpg">
+                </div>
+                <p>Syful</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>copyright 2022 - Social Media</p>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
